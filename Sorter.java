@@ -12,7 +12,6 @@ public class Sorter {
             arr[j + 1] = key;
         }
     }
-
     public static void selectionSort(int arr[]) {
         int n = arr.length;
 
