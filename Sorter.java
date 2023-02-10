@@ -1,5 +1,5 @@
 public class Sorter {
-    void insertionSort(int arr[]) {
+    public static void insertionSort(int arr[]) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
             int key = arr[i];
@@ -13,10 +13,7 @@ public class Sorter {
         }
     }
 
-    public static void main(String[] args) throws Exception {
-        
-    }
-    public void selectionSort(int arr[]) {
+    public static void selectionSort(int arr[]) {
         int n = arr.length;
 
         // One by one move boundary of unsorted subarray
@@ -33,5 +30,12 @@ public class Sorter {
             arr[min_idx] = arr[i];
             arr[i] = temp;
         }
+    }
+
+    public static void sort(int[] arr) {
+        insertionSort(arr);
+    }
+
+    public static void main(String[] args) throws Exception {
     }
 }
