@@ -2,7 +2,7 @@ public class Sorter {
     public static void main(String[] args) throws Exception {
         
     }
-    public void sort(int arr[]) {
+    public void selectionSort(int arr[]) {
         int n = arr.length;
 
         // One by one move boundary of unsorted subarray
